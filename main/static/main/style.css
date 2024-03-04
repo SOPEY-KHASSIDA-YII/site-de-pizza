@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Micro+5&family=Rubik+Glitch+Pop&display=swap');
+body{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/back.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: scroll;
+}
+#logo{
+    position: fixed;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+span{
+    font-size: 100px;
+    text-shadow: 3px 6px 5px blue;
+    font-family: "Rubik Glitch Pop" ,"Serif";
+    
+}
+#logo_pizza {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+a{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}

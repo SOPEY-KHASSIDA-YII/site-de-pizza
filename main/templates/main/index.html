@@ -1,0 +1,23 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="{%static 'main/style.css' %} ">
+</head>
+
+<body>
+    <img id="logo_pizza" src="{% static 'menu/images/lego_pizza1.png'%}" alt="">
+    <div class="menu_title">
+        <h1>Les pizzas</h1>
+    </div>
+    <div id="logo">
+        <span>PIZZA</span><br>
+        <a href="{% url 'menu:index' %}">Voir menu</a>
+    </div>
+
+</body>
+
+</html>
